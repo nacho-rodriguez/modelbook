@@ -1,0 +1,12 @@
+{
+	"name": "frontpack/less",
+	"type": "library",
+	"description": "Shim repository for less.js",
+	"license": "Apache-2.0",
+	"extra": {
+		"assets-files": [
+			"less.js",
+			"less.min.js"
+		]
+	}
+}

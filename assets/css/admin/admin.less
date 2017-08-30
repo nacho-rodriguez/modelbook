@@ -1,0 +1,110 @@
+@base: #1A237E;
+@border: #E8EAF6;
+@hover: #3F51B5;
+
+.card {
+	width: 100%;
+	height: inherit;
+	background-color: #ffffff; ///#046D8B;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border: 1px solid darkgrey;
+	-webkit-box-shadow: 0 0 10px 1px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0 0 10px 1px rgba(50, 50, 50, 0.75);
+	box-shadow: 0 0 10px 1px rgba(50, 50, 50, 0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.inlineDiv {
+	display: inline-block;
+}
+
+.tab-pane {
+	padding: 25px;
+}
+/* FIRST TAB - Choose Service */
+.input_hidden {
+	position: absolute;
+	left: -9999px;
+}
+
+.selected {
+	background-color: dodgerblue;
+}
+
+#choose-type-service label {
+	display: inline-block;
+	cursor: pointer;
+}
+
+#choose-type-service label:hover {}
+
+#choose-type-service label img {
+	padding: 3px;
+}
+
+.no-padding {
+	padding-top: 0;
+}
+
+#id-exc {
+	padding-left: 60px;
+}
+
+#id-tras {
+	padding-left: 120px;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.main-container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 60px;
+	padding-right: 60px;
+	width: 100%;
+}
+
+.main-container-booking-details {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 160px;
+	padding-right: 160px;
+	width: 100%;
+}
+
+.panel-properties {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	min-height: 525px;
+}
+
+.full-width-tabs > ul.nav.nav-tabs {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.full-width-tabs > ul.nav.nav-tabs > li {
+	float: none;
+	display: table-cell;
+}
+
+.full-width-tabs > ul.nav.nav-tabs > li > a {
+	text-align: center;
+}
+
+.take-all-space {
+	width: 100%;
+}
+
+.dropdown-menu li > span {
+	display: block;
+	padding: 1px 10px;
+	clear: both;
+}

@@ -1,0 +1,245 @@
+@base: #1A237E;
+@border: #E8EAF6;
+@hover: #3F51B5;
+
+body,
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #e0f2f1;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	color: #363636;
+}
+
+.row {
+	margin: 0;
+	padding-top: 20px;
+}
+
+.show {
+	display: block;
+}
+
+.inlineDiv {
+	display: inline-block;
+}
+
+.hide {
+	display: none;
+}
+
+.image-shadow {
+	-webkit-box-shadow: 0 0 10px 1px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0 0 10px 1px rgba(50, 50, 50, 0.75);
+	box-shadow: 0 0 10px 1px rgba(50, 50, 50, 0.75);
+}
+
+.image-rounded {
+	border-radius: 15px 15px 15px 15px;
+	.image-shadow;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+h1,
+h2,
+h3 {
+	margin: 0;
+	padding: 0;
+}
+
+ol,
+p,
+ul {
+	margin-top: 0;
+}
+
+a {
+	color: #2C6503;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.active-user-session label {
+	float: left;
+	margin-top: 5px;
+}
+
+input[name='submit'] {
+	font-size: 16px;
+	background-color: @base;
+	width: 100%;
+	margin-top: 12px;
+	padding: 12px 0;
+}
+
+button[name='submit'] {
+	font-size: 16px;
+	background-color: @base;
+	width: 100%;
+	margin-top: 12px;
+	padding: 12px 0;
+}
+
+input[name='submitTable'] {
+	font-size: 14px;
+	background-color: @base;
+	width: 100%;
+	padding: 2px 0;
+}
+
+.main-menu-container {
+	padding-right: 150px;
+	padding-left: 150px;
+	width: 100%;
+}
+
+.main-menu-buttons {
+	height: 200px;
+	width: 300px;
+	margin-bottom: 40px;
+}
+/************************************************************************
+ Row Bootstrap for Grid
+ ************************************************************************/
+.featured {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.navbar-brand {
+	display: block;
+	font-weight: bold;
+	color: #000000 !important;
+}
+
+.input-group {
+	width: 100%;
+}
+/************************************************************************
+ Texto principal destacado
+ ************************************************************************/
+.text-full-width-container {
+	width: 100%;
+	padding: 30px 0;
+	background-color: #046D8B;
+}
+
+.text-full-width-container h1 {
+	color: white;
+}
+
+.section-title-tapa {
+	padding: 15px;
+	background-color: #3f51b5;
+	color: white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.section-title-atun {
+	padding: 15px;
+	background-color: #2196f3;
+	color: white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.section-title-publicidad {
+	padding: 15px;
+	background-color: #ff9800;
+	color: white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.padding-bottom-extra {
+	padding-top: 10px;
+	padding-bottom: 45px;
+}
+
+.section-body {
+	height: auto;
+	width: auto;
+	padding-bottom: 2em;
+}
+
+.main-container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 60px;
+	padding-right: 60px;
+	width: 100%;
+}
+
+.input-group-booking {
+	font-size: 16px;
+	background-color: @base;
+	padding: 12px 0;
+	.input-group;
+}
+
+.list-services-panel {}
+
+.panel-properties {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	min-height: 525px;
+}
+
+.space-right {
+	margin-right: 5px;
+}
+
+select {
+	height: 37px;
+	width: 100%;
+}
+
+.main-container-booking-details {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 160px;
+	padding-right: 160px;
+	width: 100%;
+}
+
+.messageOK {
+	color: forestgreen;
+	font-weight: bold;
+}
+
+.infoBooking {
+	color: darkred;
+	font-weight: bold;
+}
+
+.modal-title {
+	font-weight: bold;
+}
+/************************************************************************
+ Menu principal
+ ************************************************************************/
+@import "user-inside-menu.less";
+/************************************************************************
+ Footer
+ ************************************************************************/
+@import "user-footer.less";

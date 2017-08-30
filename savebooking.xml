@@ -1,0 +1,66 @@
+<RestClientRequest>
+  <option name="biscuits">
+    <list>
+      <Biscuit>
+        <option name="date" value="1495263161000" />
+        <option name="domain" value="localhost" />
+        <option name="name" value="session_" />
+        <option name="path" value="/" />
+        <option name="value" value="cqhe5sc6ge626o3bcvvmioc69v0vadtp" />
+      </Biscuit>
+    </list>
+  </option>
+  <option name="httpMethod" value="POST" />
+  <option name="urlBase" value="http://localhost" />
+  <option name="urlPath" value="/Dropbox/modelbook/user/bookings/savebooking" />
+  <option name="headers">
+    <list>
+      <KeyValuePair>
+        <option name="key" value="Accept" />
+        <option name="value" value="*/*" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="Cache-Control" />
+        <option name="value" value="no-cache" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="Authorization" />
+        <option name="value" value="Basic YWRtaW5uQG1vZGVsYm9vay5jb206YWRtaW5u" />
+      </KeyValuePair>
+    </list>
+  </option>
+  <option name="parameters">
+    <list>
+      <KeyValuePair>
+        <option name="key" value="id_servicio" />
+        <option name="value" value="1" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="paradaId" />
+        <option name="value" value="50" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="dataClientsBooking" />
+        <option name="value" value="nacho" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="numClients" />
+        <option name="value" value="1" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="mainPassenger" />
+        <option name="value" value="false" />
+      </KeyValuePair>
+      <KeyValuePair>
+        <option name="key" value="id_user" />
+        <option name="value" value="1" />
+      </KeyValuePair>
+    </list>
+  </option>
+  <option name="parametersEnabled" value="true" />
+  <option name="haveTextToSend" value="false" />
+  <option name="haveFileToSend" value="false" />
+  <option name="isFileUpload" value="false" />
+  <option name="textToSend" value="" />
+  <option name="filesToSend" value="" />
+</RestClientRequest>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CodeIgniter Application Test Suite" tests="21" assertions="44" failures="0" errors="0" time="1.421055">
+    <testsuite name="Booking_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Booking_model_test.php" fullPackage="Booking.model" tests="3" assertions="5" failures="0" errors="0" time="0.254342">
+      <testcase name="test_getBookingsFromClient" class="Booking_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Booking_model_test.php" line="15" assertions="2" time="0.092807"/>
+      <testcase name="test_getAllBookingFromSeller" class="Booking_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Booking_model_test.php" line="28" assertions="2" time="0.083125"/>
+      <testcase name="test_getBookingsConfirmedByService" class="Booking_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Booking_model_test.php" line="41" assertions="1" time="0.078410"/>
+    </testsuite>
+    <testsuite name="Bookings_client_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Bookings_client_model_test.php" fullPackage="Bookings.client.model" tests="1" assertions="1" failures="0" errors="0" time="0.069718">
+      <testcase name="test_getNumberOfClients" class="Bookings_client_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Bookings_client_model_test.php" line="15" assertions="1" time="0.069718"/>
+    </testsuite>
+    <testsuite name="Clients_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Clients_model_test.php" fullPackage="Clients.model" tests="1" assertions="2" failures="0" errors="0" time="0.059647">
+      <testcase name="test_getAllClients" class="Clients_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Clients_model_test.php" line="15" assertions="2" time="0.059647"/>
+    </testsuite>
+    <testsuite name="Commissions_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Commissions_model_test.php" fullPackage="Commissions.model" tests="1" assertions="2" failures="0" errors="0" time="0.052592">
+      <testcase name="test_getAllCommissions" class="Commissions_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Commissions_model_test.php" line="15" assertions="2" time="0.052592"/>
+    </testsuite>
+    <testsuite name="Model_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Model_model_test.php" fullPackage="Model.model" tests="2" assertions="2" failures="0" errors="0" time="0.133311">
+      <testcase name="test_getAvailableModels" class="Model_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Model_model_test.php" line="15" assertions="2" time="0.072169"/>
+      <testcase name="test_getgetDisableModels" class="Model_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Model_model_test.php" line="28" assertions="0" time="0.061142"/>
+    </testsuite>
+    <testsuite name="Models_paradas_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Models_paradas_model_test.php" fullPackage="Models.paradas.model" tests="1" assertions="2" failures="0" errors="0" time="0.062315">
+      <testcase name="test_getAllParadasFromModel" class="Models_paradas_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Models_paradas_model_test.php" line="15" assertions="2" time="0.062315"/>
+    </testsuite>
+    <testsuite name="Models_prices_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Models_prices_model_test.php" fullPackage="Models.prices.model" tests="1" assertions="4" failures="0" errors="0" time="0.067558">
+      <testcase name="test_getPreciosComisionesModelo" class="Models_prices_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Models_prices_model_test.php" line="15" assertions="4" time="0.067558"/>
+    </testsuite>
+    <testsuite name="Request_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Request_model_test.php" fullPackage="Request.model" tests="2" assertions="4" failures="0" errors="0" time="0.123578">
+      <testcase name="test_getAllRequests" class="Request_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Request_model_test.php" line="15" assertions="2" time="0.067534"/>
+      <testcase name="test_getRequestsFromSeller" class="Request_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Request_model_test.php" line="28" assertions="2" time="0.056044"/>
+    </testsuite>
+    <testsuite name="Request_messages_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Requests_messages_model_test.php" fullPackage="Request.messages.model" tests="1" assertions="3" failures="0" errors="0" time="0.063155">
+      <testcase name="test_getMessagesFromRequest" class="Request_messages_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Requests_messages_model_test.php" line="15" assertions="3" time="0.063155"/>
+    </testsuite>
+    <testsuite name="Sellers_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Sellers_model_test.php" fullPackage="Sellers.model" tests="2" assertions="3" failures="0" errors="0" time="0.129975">
+      <testcase name="test_getAllSellers" class="Sellers_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Sellers_model_test.php" line="15" assertions="2" time="0.069037"/>
+      <testcase name="test_sellerExists" class="Sellers_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Sellers_model_test.php" line="28" assertions="1" time="0.060938"/>
+    </testsuite>
+    <testsuite name="Service_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Service_model_test.php" fullPackage="Service.model" tests="1" assertions="2" failures="0" errors="0" time="0.088123">
+      <testcase name="test_getAvailableServices" class="Service_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Service_model_test.php" line="15" assertions="2" time="0.088123"/>
+    </testsuite>
+    <testsuite name="Services_paradas_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Services_paradas_model_test.php" fullPackage="Services.paradas.model" tests="1" assertions="2" failures="0" errors="0" time="0.063018">
+      <testcase name="test_getAllParadasFromService" class="Services_paradas_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Services_paradas_model_test.php" line="15" assertions="2" time="0.063018"/>
+    </testsuite>
+    <testsuite name="Services_prices_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Services_prices_model_test.php" fullPackage="Services.prices.model" tests="1" assertions="4" failures="0" errors="0" time="0.075135">
+      <testcase name="test_getPreciosComisionesService" class="Services_prices_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Services_prices_model_test.php" line="15" assertions="4" time="0.075135"/>
+    </testsuite>
+    <testsuite name="Type_clients_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Type_clients_model_test.php" fullPackage="Type.clients.model" tests="1" assertions="4" failures="0" errors="0" time="0.060800">
+      <testcase name="test_getAllTypeClients" class="Type_clients_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Type_clients_model_test.php" line="15" assertions="4" time="0.060800"/>
+    </testsuite>
+    <testsuite name="Type_services_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Type_services_model_test.php" fullPackage="Type.services.model" tests="1" assertions="3" failures="0" errors="0" time="0.060042">
+      <testcase name="test_getAllTypeServices" class="Type_services_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Type_services_model_test.php" line="15" assertions="3" time="0.060042"/>
+    </testsuite>
+    <testsuite name="Users_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Users_model_test.php" fullPackage="Users.model" tests="1" assertions="1" failures="0" errors="0" time="0.057746">
+      <testcase name="test_getAdminEmail" class="Users_model_test" file="C:\xampp\htdocs\Dropbox\modelbook\application\tests\models\Users_model_test.php" line="15" assertions="1" time="0.057746"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
